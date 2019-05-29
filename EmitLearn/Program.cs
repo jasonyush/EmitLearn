@@ -9,7 +9,8 @@ namespace EmitLearn
             try
             {
                // HelloWord.Hello();
-                Fibonacci.CalcRun();
+                //Fibonacci.CalcRun();
+                Calc.Run();
             }
             catch(Exception ex)
             {

@@ -12,7 +12,7 @@ namespace EmitLearn
         public static void CalcRun()
         {
             string name = "EmitExamples.DynamicFibonacci";
-            string asmFileName = name + ".dll";
+            //ring asmFileName = name + ".dll";
 
             #region Step 1 构建程序集
 
@@ -22,7 +22,7 @@ namespace EmitLearn
             //获取程序集所在的应用程序域
             //你也可以选择用AppDomain.CreateDomain方法创建一个新的应用程序域
             //这里选择当前的应用程序域
-            AppDomain domain = AppDomain.CurrentDomain;
+            //AppDomain domain = AppDomain.CurrentDomain;
 
             //实例化一个AssemblyBuilder对象来实现动态程序集的构建
             AssemblyBuilder assemblyBuilder = AssemblyBuilder.DefineDynamicAssembly(asmName, AssemblyBuilderAccess.RunAndCollect);
