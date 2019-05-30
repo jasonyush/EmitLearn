@@ -8,9 +8,14 @@ namespace EmitLearn
         {
             try
             {
-               // HelloWord.Hello();
+                // HelloWord.Hello();
                 //Fibonacci.CalcRun();
-                Calc.Run();
+                //Calc.Run();
+                //ForEmit.ForMethod();
+                //ForEmit.ForEachMethod();
+
+                EmitException.Run();
+
             }
             catch(Exception ex)
             {
